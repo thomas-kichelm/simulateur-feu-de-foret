@@ -191,14 +191,5 @@ class Application(Frame):
 
             else:l1.config(text="le feu s'est eteint")
             root.after(200,maj)
-
-
-
-
-
-
-
-
-
 app = Application(master=root)
 root.mainloop()
