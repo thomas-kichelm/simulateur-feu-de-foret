@@ -2,7 +2,7 @@
 from random import *
 import time
 root = Tk()
-root.title("SIMULATEUR DE FEU DE FORÊT (par Thomas KICHELM)")
+root.title("SIMULATEUR DE FEU DE FOrÊT (par Thomas KICHELM et Matéo BURKHARD)")
 root.geometry("1600x900")
 root.minsize(300, 300)
 class Application(Frame):
