@@ -82,7 +82,7 @@ class Application(Frame):
             self.QUIT.place(x=self.can_x-25,y=self.can_x-2,height=25, width=30)
             self.can1.bind("<Button-1>",change_color)
             l1.config(text="toucher un arbre pour y envoyer {}".format(self.decl))
-            l1.place(y=self.can_x+25,x=self.can_x/2)
+            l1.place(x=self.can_x/2-100 ,y=self.can_x+25)
             nb_arbre.grid_forget()
             taille.grid_forget()
             b1.grid_forget()
